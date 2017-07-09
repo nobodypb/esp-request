@@ -1,0 +1,13 @@
+{
+  "name": "esp-request",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nobodypb/esp-request"
+  },
+  "export": {
+    "include": [
+      "include/*.h",
+      "/*.c"
+    ]
+  }
+}

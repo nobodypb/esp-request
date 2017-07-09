@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <strings.h>
-#include "esp_request.h"
+#include "include/esp_request.h"
 #include "esp_log.h"
 #include "esp_system.h"
 
@@ -14,7 +14,7 @@
 #include "lwip/dns.h"
 #include "lwip/netdb.h"
 #include "lwip/igmp.h"
-#include "req_list.h"
+#include "include/req_list.h"
 
 #define REQ_TAG "HTTP_REQ"
 
